@@ -27,7 +27,7 @@ The Terraform wrapper for AWS's ECR (Elastic Container Registry) service simplif
 ### 🔗 External Modules
 | Name | Version |
 |------|------:|
-| <a href="https://github.com/terraform-aws-modules/terraform-aws-ecr" target="_blank">terraform-aws-modules/ecr/aws</a> | 3.1.0 |
+| <a href="https://github.com/terraform-aws-modules/terraform-aws-ecr" target="_blank">terraform-aws-modules/ecr/aws</a> | 3.2.0 |
 
 
 
