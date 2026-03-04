@@ -1,7 +1,7 @@
 module "ecr" {
   for_each = var.ecr_parameters
   source   = "terraform-aws-modules/ecr/aws"
-  version  = "3.1.0"
+  version  = "3.2.0"
 
   attach_repository_policy                         = try(each.value.attach_repository_policy, var.ecr_defaults.attach_repository_policy, true)
   create                                           = try(each.value.create, var.ecr_defaults.create, true)
